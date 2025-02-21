@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>MyWebsite</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to MyWebsite</h2>
+            <p>Your one-stop destination for amazing content.</p>
+            <a href="#services" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="service-card">
+            <h3>Web Design</h3>
+            <p>We create stunning websites that are both functional and beautiful.</p>
+        </div>
+        <div class="service-card">
+            <h3>Development</h3>
+            <p>Our developers bring your ideas to life with cutting-edge technology.</p>
+        </div>
+        <div class="service-card">
+            <h3>SEO</h3>
+            <p>Boost your website's visibility and rankings with our expert SEO services.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MyWebsite. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
